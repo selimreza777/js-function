@@ -11,10 +11,13 @@ function square(number) {
 // square(8);
 // square(302);
 
+
+// added number 
 function add(num1,num2,num3){
   console.log("parmeter number is:",num1,num2,num3);
   const addedNumber=num1+num2+num3;
   return addedNumber;
 }
-const result=add(2,3,5);
+const result=add(50,100,200);
 console.log(result);
+console.log(add(25,35,45));
